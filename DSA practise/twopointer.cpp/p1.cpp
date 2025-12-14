@@ -6,11 +6,11 @@ int main() {
     cout << "Enter size of array: ";
     cin >> n;
 
-    int a[n + 1];    // make array 1-based4
+    int a[n + 1];    
     
 
     cout << "Enter " << n << " sorted elements: ";
-    for (int i = 1; i <= n; i++) {   // input from 1 to n
+    for (int i = 1; i <= n; i++) {   
         cin >> a[i];
     }
 
@@ -19,7 +19,7 @@ int main() {
     cin >> target;
 
     int i = 1;
-    int j = n;     // this is now CORRECT
+    int j = n;     
 
     while (i < j) {
         int sum = a[i] + a[j];
@@ -40,3 +40,4 @@ int main() {
     cout << "No pair found";
     return 0;
 }
+
